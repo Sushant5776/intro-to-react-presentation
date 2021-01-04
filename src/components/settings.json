@@ -6,6 +6,13 @@
         "b": 103,
         "a": 0.3,
         "delay": 700,
-        "defaultWait": 5000
+        "defaultWait": 5000,
+        "variantForList": "flush",
+        "hrefCode1": "https://drive.google.com/uc?id=1sHdYK4Qpr9bTRMNIjRNYN1ThzDZBaURo",
+        "hrefVideo1": "https://drive.google.com/file/d/1dZ3Ss64urvPr4wHtr6dvXJ_cCYXrYxyK/view",
+        "hrefCode2": "https://drive.google.com/uc?id=14L9tjBj-2d0wpuEF99Uv3cspYFuvlYy1",
+        "hrefVideo2": "https://drive.google.com/file/d/1lNAbeL2GGJlhlrZShVvvEQkGhYiz7UgO/view",
+        "hrefCode3": "",
+        "hrefVideo3": ""
     }
 }
