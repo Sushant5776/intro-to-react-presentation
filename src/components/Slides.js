@@ -5,7 +5,7 @@ import '../index.css'
 import styled, { css } from 'styled-components'
 import ListGroup from 'react-bootstrap/ListGroup'
 import SafeAnchor from 'react-bootstrap/SafeAnchor'
-import data from './settings.json'
+import { settings } from './settings.json'
 
 const Arrow = styled.div`
   text-shadow: 1px 1px 1px #fff;
@@ -31,20 +31,23 @@ const CarouselUI = ({ position, handleClick, children }) => (
 )
 
 const Carousel = makeCarousel(CarouselUI);
-const r = data.settings.r
-const g = data.settings.g
-const b = data.settings.b
-const a = data.settings.a
-const hrSize = data.settings.hrSize
-const delay = data.settings.delay
-const defaultWait = data.settings.defaultWait
-const variant = data.settings.variantForList
-const hrefCode1 = data.settings.hrefCode1
-const hrefVideo1 = data.settings.hrefVideo1
-const hrefCode2 = data.settings.hrefCode2
-const hrefVideo2 = data.settings.hrefVideo2
-const hrefCode3 = data.settings.hrefCode3
-const hrefVideo3 = data.settings.hrefVideo3
+const r = settings.r
+const g = settings.g
+const b = settings.b
+const a = settings.a
+const hrSize = settings.hrSize
+const delay = settings.delay
+const defaultWait = settings.defaultWait
+const variant = settings.variantForList
+const project1Name = settings.project1Name
+const hrefCode1 = settings.hrefCode1
+const hrefVideo1 = settings.hrefVideo1
+const project2Name = settings.project2Name
+const hrefCode2 = settings.hrefCode2
+const hrefVideo2 = settings.hrefVideo2
+const project3Name = settings.project3Name
+const hrefCode3 = settings.hrefCode3
+const hrefVideo3 = settings.hrefVideo3
 
 function Slides() {
   return (
@@ -249,13 +252,13 @@ function Slides() {
 
             <ListGroup variant={variant} as='ul'>
               <ListGroup.Item as='li'>
-                Todo App - <a target='_blank' rel='noreferrer' href={hrefCode1}>Code</a> - <a target='_blank' rel='noreferrer' href={hrefVideo1}>Video</a>
+                {project1Name} - <a target='_blank' rel='noreferrer' href={hrefCode1}>Code</a> - <a target='_blank' rel='noreferrer' href={hrefVideo1}>Video</a>
               </ListGroup.Item>
               <ListGroup.Item as='li'>
-                Basic Weather Fetching Application Demo - <a target='_blank' rel='noreferrer' href={hrefCode2}>Code</a> - <a target='_blank' rel='noreferrer' href={hrefVideo2}>Video</a>
+                {project2Name} - <a target='_blank' rel='noreferrer' href={hrefCode2}>Code</a> - <a target='_blank' rel='noreferrer' href={hrefVideo2}>Video</a>
               </ListGroup.Item>
               <ListGroup.Item as='li'>
-                Third Project Name - <a target='_blank' rel='noreferrer' href={hrefCode3}>Code</a> - <a target='_blank' rel='noreferrer' href={hrefVideo3}>Video</a>
+                {project3Name} - <a target='_blank' rel='noreferrer' href={hrefCode3}>Code</a> - <a target='_blank' rel='noreferrer' href={hrefVideo3}>Video</a>
               </ListGroup.Item>
             </ListGroup>
           </div>

@@ -8,11 +8,14 @@
         "delay": 700,
         "defaultWait": 5000,
         "variantForList": "flush",
+        "project1Name": "Todo App",
         "hrefCode1": "https://drive.google.com/uc?id=1sHdYK4Qpr9bTRMNIjRNYN1ThzDZBaURo",
         "hrefVideo1": "https://drive.google.com/file/d/1dZ3Ss64urvPr4wHtr6dvXJ_cCYXrYxyK/view",
+        "project2Name": "Basic Weather Data Fetching Demo",
         "hrefCode2": "https://drive.google.com/uc?id=14L9tjBj-2d0wpuEF99Uv3cspYFuvlYy1",
         "hrefVideo2": "https://drive.google.com/file/d/1lNAbeL2GGJlhlrZShVvvEQkGhYiz7UgO/view",
-        "hrefCode3": "",
-        "hrefVideo3": ""
+        "project3Name": "Tic Tac Toe",
+        "hrefCode3": "https://drive.google.com/drive/folders/1agSAi4tZHzvKAwY5fjtl-KzVT39ZVvM4?usp=sharing",
+        "hrefVideo3": "https://drive.google.com/file/d/1eh9MIUMgS73VnonwaxXJ_aseUmpH2vgl/view"
     }
 }
